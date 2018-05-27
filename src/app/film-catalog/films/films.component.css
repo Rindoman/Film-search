@@ -1,0 +1,13 @@
+.main {
+  width: 90%;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+mat-card {
+  border: 2px solid grey;
+}  
+
+img {
+  width: 200px;
+}

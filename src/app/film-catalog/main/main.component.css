@@ -1,0 +1,9 @@
+.wrapper{
+    margin: 50px auto;
+    width: 500px;
+}
+
+.mat-tab-labels {
+    display: flex;
+    justify-content: space-around;
+}
