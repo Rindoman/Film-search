@@ -47,5 +47,5 @@
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1"
   },
-  "homepage": "https://rindoman.github.io/Film-search/dist/"
+  "homepage": "https://rindoman.github.io/Film-search/dist/Film-search/"
 }
