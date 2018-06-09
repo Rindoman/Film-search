@@ -4,10 +4,11 @@ import { MainComponent } from './main/main.component';
 import { FilmsComponent } from './films/films.component';
 import { FormsModule } from '@angular/forms';
 import { DetailsComponent } from './details/details.component';
-import {MatCardModule} from '@angular/material/card';
-import {MatButtonModule} from '@angular/material/button';
-import {MatGridListModule} from '@angular/material/grid-list';
-import {MatTabsModule} from '@angular/material/tabs';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatCardModule,
     MatButtonModule,
     MatGridListModule,
-    MatTabsModule
+    MatTabsModule,
+    MatIconModule
   ],
   declarations: [
     MainComponent, 

@@ -1,13 +1,35 @@
 .main {
   width: 90%;
-  min-width: 1000px;
   margin: 0 auto;
+  padding-top: 30px;
 }
 
-mat-card {
+mat-card-header {
+  text-align: left;
+  padding: 0 20px;
+}
+
+mat-card-content {
+  padding: 0 20px;
+  line-height: 140%;
+}
+
+.example-card {
+  width: calc(100% - 200px);
+  height: calc(100% - 200px);
   border: 2px solid grey;
-}  
+  border-radius: 10px;
+  min-height: 600px;
+  min-width: 300px;
+}
+
+mat-card-content {
+  height: 100px;
+  max-height: 100px;
+  overflow: hidden;
+}
 
 img {
-  width: 200px;
+  width: 60%;
+  max-height: 60%;
 }

@@ -3,7 +3,6 @@
     width: 500px;
 }
 
-.mat-tab-labels {
-    display: flex;
-    justify-content: space-around;
+.demo-tab-content {
+    padding-top: 20px;
 }
